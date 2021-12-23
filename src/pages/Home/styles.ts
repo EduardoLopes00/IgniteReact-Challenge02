@@ -46,6 +46,7 @@ export const ProductList = styled.ul`
 
       &:hover {
         background: ${darken(0.06, '#7159c1')};
+        cursor: pointer;
       }
 
       div {

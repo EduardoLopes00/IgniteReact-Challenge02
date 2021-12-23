@@ -10,3 +10,5 @@ export interface Stock {
   id: number;
   amount: number;
 }
+
+export class ProductManagementException extends Error{}
